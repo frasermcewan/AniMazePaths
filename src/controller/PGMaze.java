@@ -20,6 +20,7 @@ import model.OriginalGenneratorWithStepping;
 import model.RandomEscapeDrunkWalk;
 import solver.Solver;
 import solver.StupidSearch;
+import solver.BreadthFirstSearch;
 import view.GridPanel;
 import data.PointPair;
 
@@ -29,7 +30,7 @@ public class PGMaze {
 		new StupidSearch(),
 		new StupidSearch(),
 		new StupidSearch(),
-		new StupidSearch()
+		new BreadthFirstSearch()
 	};
 	
 	private static final int TUNNELS = 200;
